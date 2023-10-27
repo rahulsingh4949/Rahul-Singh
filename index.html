@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d0b416f630.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Rahul </span> Singh <br>From Nepal</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ABOUT -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/photo1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a student, I lead a diverse life wearing multiple hats. I'm not just pursuing my education;
+                        I'm also a passionate graphics designer, developer, and UI/UX designer. My academic journey
+                        fuels my creativity and technical skills, allowing me to seamlessly bridge the worlds of design
+                        and development. Whether it's crafting captivating graphics, coding innovative solutions, or
+                        designing user-friendly interfaces, I'm constantly expanding my horizons and pushing the
+                        boundaries of what's possible. This multifaceted approach to learning empowers me to create
+                        engaging and meaningful digital experiences.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>UI/UX</span><br>Designing Web/App interfaces
+                            </li>
+                            <li>
+                                <span>Web Development</span><br>Web app Development
+                            </li>
+                            <li>
+                                <span>Graphics Designing</span><br>Advertising Designer, Web design, Motion Design,
+                                Logos, Branding
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Graphics Designing</span><br>Teacher at Shree Lubhoo Secondary School
+                            </li>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2022-Ongoing</span><br>The British College, Nepal
+                            </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design services involve creating and optimizing websites for clients. This includes custom
+                        design, user-friendly layouts, responsiveness for all devices, SEO, e-commerce integration, and
+                        ongoing maintenance. The goal is to build a strong online presence that engages visitors and
+                        achieves the client's objectives.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX design focuses on creating user-friendly and visually appealing digital interfaces, such as
+                        websites and mobile apps. It involves designing intuitive layouts, navigation, and interactions,
+                        ensuring a seamless and enjoyable user experience. The goal is to enhance user satisfaction and
+                        engagement, ultimately achieving the client's design objectives.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <i class="fa-solid fa-object-group"></i>
+                    <h2>Graphics Design</h2>
+                    <p>Graphic design involves creating visually captivating and tailored designs for various purposes.
+                        This includes logos, branding, marketing materials, and digital graphics. The goal is to
+                        communicate messages effectively through visual elements, capturing the audience's attention and
+                        achieving the client's design goals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/image/work1.jpg">
+                    <div class="layer">
+                        <h3>Web Page Design </h3>
+                        <p> I've designed immersive and visually appealing user interfaces, ensured responsive design for various devices, created gaming-themed visuals, integrated community features, optimized performance, implemented e-commerce, included interactive elements, focused on accessibility, and used SEO strategies to enhance the overall gaming experience and website visibility.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/image/work2.jpg">
+                    <div class="layer">
+                        <h3>UI/UX Design </h3>
+                        <p>I focus on creating user-centered digital experiences. I design intuitive interfaces, ensure responsive and visually appealing designs, conduct user testing, prioritize accessibility, and use research to enhance usability and user satisfaction.</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/image/work3.jpg">
+                    <div class="layer">
+                        <h3>Website Frontend</h3>
+                        <p>I specialize in creating the visual and interactive elements of websites. I use HTML, CSS, and JavaScript to design and build the user interface, ensuring that websites are visually appealing, responsive, and user-friendly. My focus is on making the user experience as engaging and efficient as possible.
+
+                        </p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>mrznrahul2024@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9840436518</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/rahul.maharjan.2024/"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_rahul_2024/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rahul-singh-b3603227a/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/image/mycv.pdf" download class="btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © 2023 <i class="fa-solid fa-heart"></i> Rahul Singh </p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwKr4ikFCwNbPX9AcfQnqDoKzdxMdU2IDEM5F1jYYRvpjs3KOr3o4u9Xf-l0ST0OJgmBw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent sucessfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
